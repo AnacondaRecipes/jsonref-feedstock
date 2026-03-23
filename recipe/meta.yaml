@@ -38,6 +38,11 @@ about:
   license_family: MIT
   license_file: LICENSE
   summary: An implementation of JSON Reference for Python
+  description: |
+    jsonref is a library for automatic dereferencing of JSON 
+    Reference objects for Python.
+  dev_url: http://github.com/gazpachoking/jsonref
+  doc_url: https://github.com/AnacondaRecipes/jsonref-feedstock/blob/main/README.md
 
 extra:
   recipe-maintainers:
