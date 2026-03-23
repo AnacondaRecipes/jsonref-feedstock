@@ -35,7 +35,7 @@ test:
     - pytest tests.py
 
 about:
-  home: http://github.com/gazpachoking/jsonref
+  home: https://github.com/gazpachoking/jsonref
   license: MIT
   license_family: MIT
   license_file: LICENSE
@@ -43,7 +43,7 @@ about:
   description: |
     jsonref is a library for automatic dereferencing of JSON 
     Reference objects for Python.
-  dev_url: http://github.com/gazpachoking/jsonref
+  dev_url: https://github.com/gazpachoking/jsonref
   doc_url: https://github.com/AnacondaRecipes/jsonref-feedstock/blob/main/README.md
 
 extra:
