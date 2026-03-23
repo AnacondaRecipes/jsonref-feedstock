@@ -6,8 +6,8 @@ package:
   version: "{{ version }}"
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 32fe8e1d85af0fdefbebce950af85590b22b60f9e95443176adbde4e1ecea552
+  url: https://github.com/gazpachoking/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 0b18f471956f60adc4cabed25fd8563237f81f2d5107e0cd0b4058110f2be100
 
 build:
   number: 0
@@ -24,8 +24,14 @@ requirements:
     - python >=3.7
 
 test:
+  source_files:
+    - tests
+  requires:
+    - pytest >=7.1.3
   imports:
     - jsonref
+  commands:
+    - pytest
 
 about:
   home: http://github.com/gazpachoking/jsonref
