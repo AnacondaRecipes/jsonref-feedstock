@@ -27,9 +27,11 @@ test:
     - tests.py
   requires:
     - pytest >=7.1.3
+    - pip
   imports:
     - jsonref
   commands:
+    - pip check
     - pytest tests.py
 
 about:
